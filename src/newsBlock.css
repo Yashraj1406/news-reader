@@ -1,0 +1,46 @@
+.newsBlockList {
+    margin-top:40px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    flex: 0.73;
+}
+
+.newsBlockGrid {
+    margin-top:-10px;
+    margin-left: 50px;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    /* flex-direction: column; */
+    flex: 0.73;
+}
+
+.navi {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.num {
+    cursor: pointer;
+    color: grey;
+    font-size:1.5em;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px hidden;
+    margin-right: 15px;
+}
+
+.next {
+    background-color:#dce4f2;
+    cursor: pointer;
+    color: grey;
+    font-size:1.5em;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px hidden;
+    margin-right: 15px;
+}
